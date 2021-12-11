@@ -325,16 +325,17 @@ h4{
     z-index: 3;
 }
 .p-text2{
-    font-size:2vh;
+    font-size:2.5vh;
     margin-left: 173vh;
     top:733vh;
     margin-left:20vw;
     font-family:'Open Sans', sans-serif;
     color:white;
-    width: 24.5vw;
+    width: 30vw;
     height:10vh;
     position: absolute;
     z-index:4;
+    opacity:0.8;
 }
 .logo-1{
     position: absolute;
@@ -359,9 +360,9 @@ h4{
     width:14vw;  
 }
 .p-text3{
-    font-size:2vh;
+    font-size:2.5vh;
     margin-left: 173vh;
-    top:798vh;
+    top:800vh;
     margin-left:20vw;
     font-family:'Open Sans', sans-serif;
     color:white;
@@ -369,12 +370,14 @@ h4{
     height:10vh;
     position: absolute;
     z-index:4;
+    opacity:0.8;
 }
 .vai-na-web{
     position:absolute;
     display:inline;
     z-index:4;
-    top:810vh;
-    left:92vw;
+    top:804vh;
+    left:86vw;
     width:20vw;  
 }
+
