@@ -8,180 +8,158 @@ url('https://fonts.googleapis.com/css2? family = Abrir + Sans: wdth, wght @ 99.9
     list-style:none;
     font-family: 'Open Sans', sans-serif;
 }
-body{
-    height:250vh;
-    width:115vw;
-}
 .logo{
-    top: 0vh;
-    left: 0vw;
-    width:132vw;
-    height: 115vh;
-    opacity:1;
+    position:absolute;
+    width:98.7vw;
+    height:99vh;
 }
 .kyloren{
-    top:2vh;
-    left: 15vw;
-    width: 85vw;
-    height: 132vh;
     position: absolute;
-    display:flex;
-    opacity:1;
+    left: 10vw;
+    width: 69vw;
+    height: 120vh;
     z-index:2;  
 }
 .star{
     position:absolute;
-    display: inline;
-    top: 61.9vh;
-    left: 25.2vw;
-    height:18vh;
-    width:30vw;
-    opacity:1;
+    top:53vh;
+    left: 18vw;
+    height:13.2vh;
+    width:24vw;
     z-index:1;
 }
 .wars{
     position:absolute;
-    display:inline;
-    top:61.9vh;
-    left:83.8vw;
-    height:18vh;
-    width:30vw;
+    top:53vh;
+    left: 64vw;
+    height:13.2vh;
+    width:24vw;
     z-index:1;
     
 }
 .csl{
     height:23vh;
     width:11vw;
-    top:89vh;
-    left: 100.5vw;
+    top:75vh;
+    left: 80vw;
     position:absolute;
-    display:flex;
 }
 .retangulo-main{
-    top:0;
-    left:0;
+    position:absolute;
+    top:98vh;
     height:200vh;
     width:45vw;
     opacity:1;
-    z-index:3;
+    z-index:1;
 }
 .boxred{
     position:absolute;
-    top:105vh;
-    left: 18vw;
-    height: 82vh;
-    width:28vw;
+    top:92vh;
+    left: 13vw;
+    height:83vh;
+    width:23vw;
     z-index:2;
 }
 .sobre{
-    top:151vh;
-    left:60vw;
-    width:60vw;
-    height:35vh;
+    top:145vh;
+    left:48vw;
+    width:50vw;
+    height:30vh;
     position:absolute;
     z-index:2;
 }
 .linha{
     position:absolute;
-    top:200vh;
-    left:18.2vw;
-    display:flex;
-    width:101.9vw;
+    top:186vh;
+    left:13vw;
+    width:85.2vw;
     z-index:2;
 }
 .lord{
     position:absolute;
-    top:205vh;
-    left:15vw;
-    height:118vh;
-    width:60vw;
+    top:198vh;
+    left:13vw;
+    height:105vh;
+    width:42vw;
     z-index:3;
 }
 .estrutura{
     position:absolute;
-    opacity:1;
-    top:218vh;
-    left:50vw; 
-    height:78vh;
-    width:50vw;
+    top:200vh;
+    left:23vw; 
+    height:65vh;
+    width:65vw;
     z-index:3;
-}
-.retangulo{
-    position:absolute;
-    display:flex;
-    z-index:1;
-    top:205vh;
-    left: 60vw;
-    width:40vw;
-    height:80vh;
 }
 .rey{
     position:absolute;
     display:flex;
-    top:209vh;
-    left: 94vw;
-    height:120vh;
-    width: 30vw;
+    top:200vh;
+    left: 70vw;
+    height:98vh;
+    width: 25vw;
     z-index:3;
 }
 .container-cinza{
     background-color: #363636;
     position:absolute;
-    top:315.2vh;
+    top:295vh;
     z-index:2;
-    width:132vw;
-    height:305vh;
-    
-
-
+    width:98.7vw;
+    height:259.8vh;
 }
 .img-1{
     position:absolute;
     top:355vh;
     left:44.90vw;
-    height:70vh;
+    height:60vh;
+    width:46vw;
     z-index:3;
 }
 .img-2{
     position:absolute;
     z-index:3;
     top:355vh;
-    left:96.8vw;
-    height:35vh;
+    left:90.9vw;
+    height:30vh;
+    width:20vw;
 }
 .img-3{
     position:absolute;
     z-index:3;
     top:355vh;
-    left:122.8vw;
-    height:35vh;
+    left:110.9vw;
+    height:30vh;
+    width:20vw;
 }
 .img-4{
     position:absolute;
     z-index:3;
-    top:390vh;
-    left:122.8vw;
-    height:35vh;
+    top:385vh;
+    left:110.9vw;
+    height:30vh;
+    width:20vw;
 }
 .img-5{
     position:absolute;
     z-index:3;
-    top:390vh;
-    left: 96.8vw;
-    height:35vh;
-    width:25.8vw;
+    top:384.99vh;
+    left: 90.9vw;
+    height:30vh;
+    width:20vw;
 }
 .img-6{
     position:absolute;
     z-index:3;
-    top:352.5vh;
-    left: 96.2vw;
-    width:27vw;
-    opacity:1;
+    top:354.5vh;
+    left: 89.82vw;
+    width:22vw;
+    
+    
 }
 h2{
-    top: 332vh;
-    left:55vw;
+    top: 315vh;
+    left:15vw;
     height:50vh;
     font-family:'Open Sans', sans-serif;
     font-size:5vh;
@@ -189,36 +167,34 @@ h2{
     z-index: 2;
     position:absolute;
 }
-.conj-img{
+.conjimg{
     position:absolute;
-    left:-32vw;
-    top: 7vh;
-    height:300vh;
-    width: 100vw;
+    margin-left:-38vw;
+    top: -25vh;
 }
 .hierarquia{
     position:absolute;
     z-index:3;
-    height:130vh;
-    width: 103.8vw;
-    top:440vh;
-    left: 12.8vw;
+    height:100vh;
+    width: 86vw;
+    top:400vh;
+    left: 7vw;
 }
 .p-text{
-    font-size:2vh;
-    margin-left: 173vh;
-    top:572vh;
+    font-size:2.1vh;
+    left:125vh;
+    top:501vh;
     font-family:'Open Sans', sans-serif;
     color:white;
-    width: 40vw;
+    width:40vw;
     position: absolute;
     z-index:4;
 }
 .stortmtrup{
     display:flex;
     position:absolute;
-    top:578vh;
-    left: 20vw;
+    top:510vh;
+    left: 10vw;
     width:25vw;
     z-index:4;
 }
@@ -227,91 +203,89 @@ h3{
     font-family: 'Open Sans', sans-serif;;
     color:white;
     font-size: 2.5vw;
-    top: 595vh;
-    left:55vw;
+    top: 520vh;
+    left:47vw;
     z-index: 3;
 }
 .retangulo-branco{
-    width:100vw;
-    height:200vh;
+    background-color: blue;
+    width:98.7vw;
+    height:105vh;
     background-color:white;
     position:absolute;
     z-index: 1;
     top:620vh;
-
 }
 .grupo-12{
     position: absolute;
     z-index:3;
-    top:625vh;
-    left:48vw;
-    width:15vw;
-    opacity: 0.9;
+    top:558vh;
+    left:38vw;
+    width:12vw;
+    height:30vh;
 }
 .linha-12{
     position:absolute;
     z-index:4;
     width:4.5vw;
     height:1.8vh;
-    top:665vh;
-    left:53vw;
+    top:590vh;
+    left:42vw;
 }
 .grupo-11{
     position: absolute;
     z-index:3;
-    top:625vh;
-    left:75vw;
-    width:15vw;
-    opacity: 0.9;
+    top:558vh;
+    left:58vw;
+    width:12vw;
+    height:30vh;
 }
 .linha-11{
     position:absolute;
     z-index:4;
     width:4.5vw;
     height:1.8vh;
-    top:665vh;
-    left:80.2vw;
+    top:590vh;
+    left:61.5vw;
 }
 .grupo-9{
     position: absolute;
     z-index:3;
-    top:625vh;
-    left:102vw;
-    width:15vw;
-    opacity: 0.9;
+    top:558vh;
+    left:78vw;
+    width:12vw;
+    height:30vh;
 }
 .linha-9{
     position:absolute;
     z-index:4;
     width:4.5vw;
     height:1.8vh;
-    top:665vh;
-    left:107.1vw;
+    top:590vh;
+    left:82vw;
 }
 .retangulo-rose{
-    width:80vw;
-    height:120vh;
+    width:63vw;
+    height:110vh;
     background-color:#EE3B3B;
     position:absolute;
     z-index: 1;
-    top:700vh;
+    top:615vh;
 }
 .diabao{
-    top:682vh;
-    left: 67vw;
-    width: 48vw;
-    height: 132vh;
+    top:599.2vh;
+    left: 53vw;
+    width: 40vw;
+    height: 120vh;
     position: absolute;
-    display:flex;
-    opacity:1;
     z-index:2;  
 }
 .linha-13{
     position:absolute;
     z-index:4;
-    top:765vh;
-    left:20vw;
-    width:29.4vw;
+    top:675vh;
+    left:12vw;
+    width:28vw;
     height:0.4vh;
     background-color: #8B1A1A;
 }
@@ -320,15 +294,15 @@ h4{
     font-family: 'Open Sans', sans-serif;
     color:white;
     font-size: 2.5vw;
-    top: 720vh;
-    left:20vw;
+    top: 630vh;
+    left:12vw;
     z-index: 3;
 }
 .p-text2{
     font-size:2.5vh;
     margin-left: 173vh;
-    top:733vh;
-    margin-left:20vw;
+    top:644vh;
+    margin-left:12vw;
     font-family:'Open Sans', sans-serif;
     color:white;
     width: 30vw;
@@ -340,30 +314,29 @@ h4{
 .logo-1{
     position: absolute;
     z-index:3;
-    top:748vh;
-    left:20vw;
-    width:14vw;
+    top:658vh;
+    left:12vw;
+    width:13vw;
 }
 .logo-2{
     position: absolute;
     z-index:3;
-    top:748vh;
-    left:35.5vw;
-    width:14vw;
+    top:658vh;
+    left:27vw;
+    width:13vw;
 }
 .star-wars{
     position:absolute;
-    display:inline;
     z-index:4;
-    top:775vh;
-    left:20vw;
-    width:14vw;  
+    top:685vh;
+    left:12vw;
+    width:12vw;  
 }
 .p-text3{
     font-size:2.5vh;
     margin-left: 173vh;
-    top:800vh;
-    margin-left:20vw;
+    top:708vh;
+    margin-left:12vw;
     font-family:'Open Sans', sans-serif;
     color:white;
     width: 24.5vw;
@@ -376,8 +349,69 @@ h4{
     position:absolute;
     display:inline;
     z-index:4;
-    top:804vh;
-    left:86vw;
+    top:710vh;
+    left:70vw;
     width:20vw;  
 }
-
+@media (max-width: 320px){
+    .logo{
+            width:vw;
+            height:55vh;
+        }
+    .kyloren{
+            position: absolute;
+            width:112vw;
+            height:67vh;
+            left: 18.2vw;
+            top:1vh;
+        }
+    .star{
+            position: absolute;
+            width: 45vw;
+            height:9vh;
+            top:30vh;
+            left:27vw;
+        }
+        .wars{
+            position: absolute;
+            width: 45vw;
+            height:9vh;
+            top:30vh;
+            left:105vw;
+        }
+        .csl{
+            position: absolute;
+            width:25vw;
+            height:20vh;
+            top:44vh;
+            left:125vw;
+        }
+        .retangulo-main{
+            position: absolute;
+            width:80vw;
+            height: 150vh;
+            z-index:1;
+            top:55vh;
+        }
+        .boxred{
+            position: absolute;
+            width:80vw;
+            height:95vh;
+            top:80vh;
+            left:53vw;
+        }
+        .sobre{
+            position: absolute;
+            width:140vw;
+            height: 40vh;
+            top:190vh;
+            margin-left:-68vw;  
+        }
+        .estrutura{
+            position:absolute;
+            width:50vw;
+            height: 40vh;
+            top:250vh;
+        }
+        }
+    
