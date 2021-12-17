@@ -347,71 +347,105 @@ h4{
 }
 .vai-na-web{
     position:absolute;
-    display:inline;
     z-index:4;
     top:710vh;
     left:70vw;
     width:20vw;  
 }
-@media (max-width: 320px){
-    .logo{
-            width:vw;
-            height:55vh;
-        }
-    .kyloren{
-            position: absolute;
-            width:112vw;
-            height:67vh;
-            left: 18.2vw;
-            top:1vh;
-        }
-    .star{
-            position: absolute;
-            width: 45vw;
-            height:9vh;
-            top:30vh;
-            left:27vw;
-        }
-        .wars{
-            position: absolute;
-            width: 45vw;
-            height:9vh;
-            top:30vh;
-            left:105vw;
-        }
-        .csl{
-            position: absolute;
-            width:25vw;
-            height:20vh;
-            top:44vh;
-            left:125vw;
-        }
-        .retangulo-main{
-            position: absolute;
-            width:80vw;
-            height: 150vh;
-            z-index:1;
-            top:55vh;
-        }
-        .boxred{
-            position: absolute;
-            width:80vw;
-            height:95vh;
-            top:80vh;
-            left:53vw;
-        }
-        .sobre{
-            position: absolute;
-            width:140vw;
-            height: 40vh;
-            top:190vh;
-            margin-left:-68vw;  
-        }
-        .estrutura{
-            position:absolute;
-            width:50vw;
-            height: 40vh;
-            top:250vh;
-        }
-        }
+@media (max-width:163.8vw){
+.logo{
+    width:163.8vw;
+    height:58vh;
+}
+.kyloren{
+    width:110vw;
+    height:70vh;
+    left:18vw;
+}
+.star{
+    width:48vw;
+    height:10vh;
+    top:30vh;
+    left:22vw;
+}
+.wars{
+    width:48vw;
+    height:10vh;
+    top:30vh;
+    left:103vw;
+}
+.csl{
+    width:23vw;
+    height:20vh;
+    top:47vh;
+    left:125vw;
+}
+.boxred{
+    width:99vw;
+    height:100vh;
+    left:53.2vw;
+    top:75vh;
+}
+.retangulo-main{
+    width:120vw;
+    height:160vh;
+    top:58vh;
+}
+.sobre{
+    display:none;
+}
+.sobre2{
+    position: absolute;
+    width: 135vw;
+    height: 120vh;
+    top:180vh;
+    left:18vw;
+    z-index:3;
+}
+.estrutura{
+    top:315vh;
+    left:40vw;
+    width:90vw;
+    height:60vh;
+}
+.linha{
+    top:310vh;
+    left:20vw;
+    width: 120vw;
+    border: 0.4vw solid #363636;
+}
+.container-cinza{
+    width: 163.8vw;
+    height: 200vh;
+    top:385vh;
+}
+.lord{
+    width:70vw;
+    height: 85vh;
+    top:314vh;
+    left:5vw;
+}
+.rey{
+    width: 45vw;
+    height:85vh;
+    top:315vh;
+    left:115vw;
+}
+h2{
+    background-color: blue;
+    top:400vh;
+    left:62vw;
+}
+.img-1{
+    width:140vw
+    hei
+}
+.conjimg{
+    top:60vh;
+}
+.hierarquia{
+    top:500vh;
+}
+}
+
     
